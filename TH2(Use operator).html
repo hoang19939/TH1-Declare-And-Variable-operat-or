@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<h1 id="Tinh toan">
+
+</h1>
+<h1>
+    <input type="number" id="ST1">
+    <input type="number" id="ST2">
+    <button type="button" onclick="Tong()">Tính Tổng</button>
+    <button type="button" onclick="Hieu()">Tính Hiệu</button>
+    <button type="button" onclick="Tich()">Tính Tich</button>
+    <button type="button" onclick="Thương()">Tính Thương</button>
+</h1>
+
+<body>
+<script>
+    // let inputWidth;
+    // let inputHeight;
+    // inputWidth=prompt("Enter whit Width");
+    // inputHeight=prompt("Enter whit height");
+    // let width = parseInt(inputWidth);
+    // let height = parseInt(inputHeight);
+    // let area = width * height;
+    // document.write('area: ' +area);
+    function Tong() {
+        let width = +document.getElementById("ST1").value;
+        let height = +document.getElementById("ST2").value;
+        document.getElementById('Tinh toan').innerHTML = "Tong là: " + (width + height);
+
+    }
+
+
+
+</script>
+
+</body>
+</html>
